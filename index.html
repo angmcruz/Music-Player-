@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>music player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="window">
+    <header class="window-title"></header>
+
+    <section class="player">
+      <h1 id="title"></h1>
+      <p id="genre" class="genre"></p>
+
+      <div class="cover">
+        <img id="cover" alt="Cover" src="cover/flores.jpg" />
+      </div>
+
+      <div class="progress">
+        <div id="progress-bar" class="progress-bar"></div>
+        <div id="progress-thumb" class="progress-thumb"></div>
+      </div>
+
+      <div class="controls">
+        <button id="back" class="icon-btn" aria-label="Anterior">
+          <img src="resources/rewind.png" alt="Rewind">
+        </button>
+
+        <button id="play" class="play-btn" aria-label="Play/Pause">
+          <img id="play-icon" src="resources/play.png" alt="Play/Pause">
+        </button>
+
+        <button id="forward" class="icon-btn" aria-label="Siguiente">
+          <img src="resources/forward.png" alt="Forward">
+        </button>
+      </div>
+
+      <audio id="audio"></audio>
+    </section>
+  </main>
+
+  <script src="songs.js" defer></script>
+  <script src="renderer.js" defer></script>
+
+</body>
+
+</html>
