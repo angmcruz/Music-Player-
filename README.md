@@ -1,13 +1,12 @@
-# Music Player
+# 🎵 Music Player
 
-A simple and cozy music player built to practice and because im in love T.T
+A simple and cozy music player built to practice web development  
+(and because I’m in love T.T)
 
-![Cozy Music Player](./CozyMusicPlayer.png)
-
-
+![Cozy Music Player](./foto.png)
 
 ## Built With
 - JavaScript
 - HTML
 - CSS
-
+- Electron
